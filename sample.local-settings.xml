@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Local build settings.  -->
+
+<project>
+    <!--  Set this to the installation location of Flex -->
+    <property name="flex.dir" location="C:/flex_sdk_3"/>
+
+    <!--  Extra options to pass to the MXML compiler  -->
+    <property name="flex.mxmlc.options" value=""/>
+
+    <!--  Extra options to pass to the ActionScript compiler  -->
+    <property name="flex.compc.options" value=""/>
+
+    <!-- Root of the source tree -->
+    <property name="root.dir" location="/"/>
+
+    <!-- Where do you want build output to go? -->
+    <property name="build.root.dir" location="/temp/build"/>
+
+    <!-- Where does the web application live? -->
+    <property name="deploy.root.dir" value="/apache-tomcat-6.0.18/webapps/ROOT"/>
+</project>
